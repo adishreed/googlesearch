@@ -1,0 +1,140 @@
+/*links in top left*/
+.header, .links {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+  margin-left: auto;
+}
+
+.links a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+/*format to the middle*/
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+/*logo, buttons, searchbar*/
+.mainarea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+/*searchbars*/
+.searchbar .textinput {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid#afafaf;
+    align-items: center;
+    margin: 10px;
+    padding-left: 15px;
+}
+
+
+/*submit buttons (except image submit)*/
+.submit {
+    font-size: 14px;
+    width: 185px;
+    border-width: 0px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 15px;
+}
+
+ /*image submit*/
+#imagesubmit {
+    font-size: 14px;
+    border-width: 0px;
+    border-radius: 15px;
+    margin: 20px;
+    align-items: center;
+    padding:15px;
+    width: 310px;
+}
+
+/*text in Google images logo*/
+.imagestext {
+    color: #4285f4;
+    position: relative;
+    left: 110px;
+    top: -30px;
+}
+
+
+/*title on advanced page*/
+.advancedtitle {
+  color: #d93025;
+  font-size: 20px;
+  margin: 50px 30px;
+}
+
+/*format main area*/
+.advancedmainarea {
+    margin: 50px 40px;
+}
+  
+/*labels*/
+.advancedmainarea label {
+  display: inline-block;
+  width: 16%;
+  font-size: 20px;
+}
+
+/*align "to do this in search box" over the explanations*/
+.blank {
+    display: inline-block;
+    width: 50%;
+  }
+
+/*row includes the label + searchbar + explanation*/
+.advancedrow {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+/*explanation*/
+.advancedrow .explain {
+    margin-left: 1%;
+}
+  
+/*label*/
+.advancedrow label {
+    font-size: 14px;
+}
+  
+/*searchbar*/
+.advancedrow .textinput {
+    width: 50%;
+    padding: 4px 0;  
+}
+  
+/*blue search button*/
+.advancedsearchbutton {
+  background-color: dodgerblue;
+  color: white;
+  font-size: smaller;
+  border: none; 
+  padding: 10px;
+}
